@@ -3,14 +3,14 @@
 /**
  * main - Prints alphabets
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	char alpha;
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	char alx;
+	for (alx = 'a'; alx <= 'z'; alx++)
 	{
-		_putchar(alpha);
+		_putchar(alx);
 	}
 	_putchar('\n');
 
